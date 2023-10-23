@@ -1,6 +1,6 @@
 function checkVowel(string) {
   // write your code here
-  const vowels = ['a', 'e', 'i', 'o', 'u'];
+  const vowels = "aeiouAEIOU";
   for (const letter of string) {
     if (!vowels.includes(letter)) {
       return false;
