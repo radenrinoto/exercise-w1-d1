@@ -33,15 +33,15 @@ function generateScore(score) {
   // Enter your code below;
   if (score < 0 || score > 100) {
     console.log("This is not possible, an error has occurred.");
-  } else if (score < 19 && score > 0) {
+  } else if (score < 19) {
     console.log("That was a terrible score — total fail!");
-  } else if (score < 39 && score > 20) {
+  } else if (score < 39) {
     console.log(
       "You know some things, but it's a pretty bad score. Needs improvement."
     );
-  } else if (score < 69 && score > 40) {
+  } else if (score < 69) {
     console.log("You did a passable job, not bad!");
-  } else if (score < 89 && score > 70) {
+  } else if (score < 89) {
     console.log("That''s a great score, you really know your stuff.");
   } else {
     console.log("What an amazing score! Did you cheat? Are you for real?");
