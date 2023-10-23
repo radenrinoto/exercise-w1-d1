@@ -1,8 +1,17 @@
 function stringToArray(string) {
-  // write your code here
+  const rows = string.split(',')
+  let result = []
+
+  for (const row of rows) {
+    result.push(row.split(''))
+  }
+
+  return result
 }
 
 console.log(stringToArray('aqrst,ukaei,ffooo'))
+
+// result
 // [
 //   [ 'a', 'q', 'r', 's', 't' ],
 //   [ 'u', 'k', 'a', 'e', 'i' ],
@@ -10,6 +19,8 @@ console.log(stringToArray('aqrst,ukaei,ffooo'))
 // ]
 
 console.log(stringToArray('qwer,tyui,asdf,ghjk'))
+
+// result
 // [
 //   [ 'q', 'w', 'e', 'r' ],
 //   [ 't', 'y', 'u', 'i' ],

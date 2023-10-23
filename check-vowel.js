@@ -1,8 +1,15 @@
 function checkVowel(string) {
-  // write your code here
+  const vowels = ['a', 'e', 'i', 'o', 'u']
+  string = string.toLowerCase()
+  for (const char of string) {
+    if (!vowels.includes(char)) {
+      return false
+    }
+  }
+  return true
 }
 
-console.log(checkVowel('alksk d'));
-console.log(checkVowel('rabsnckksola'));
-console.log(checkVowel('aiueoaiueoaiuoe'));
-console.log(checkVowel('aaaaaaaaaaadaaaa'))
+console.log(checkVowel('alksk d')) // return false
+console.log(checkVowel('rabsnckksola')) // return false
+console.log(checkVowel('aiueoaiueoaiuoe')) // return true
+console.log(checkVowel('aaaaaaaaaaadaaaa')) // return false
