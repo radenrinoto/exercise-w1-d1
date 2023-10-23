@@ -1,5 +1,12 @@
 function stringToArray(string) {
   // write your code here
+  const arrays = [];
+  const arrayOfWords = string.split(",");
+  for (const word of arrayOfWords) {
+    arrays.push(word.split(""));
+  }
+
+  return arrays;
 }
 
 console.log(stringToArray('aqrst,ukaei,ffooo'))
