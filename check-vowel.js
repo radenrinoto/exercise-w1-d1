@@ -23,11 +23,11 @@ function checkVowel(string) {
 // const vowels = 'aeiouAEIOU';
 
 // console.log(vowels.indexOf('b'))
-let string = "aiueoaiueoaiuo"
+// let string = "aiueoaiueoaiuo"
 
-console.log(string.length);
+// console.log(string.length);
 
-// console.log(checkVowel('alksk d'));
-// console.log(checkVowel('rabsnckksola'));
-// console.log(checkVowel('aiueoaiueoaiuoe'));
-// console.log(checkVowel('aaaaaaaaaaaaaaaa'))
+console.log(checkVowel('alksk d'));
+console.log(checkVowel('rabsnckksola'));
+console.log(checkVowel('aiueoaiueoaiuoe'));
+console.log(checkVowel('aaaaaaaaaaadaaaa'))
