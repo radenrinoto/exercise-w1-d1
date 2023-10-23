@@ -1,5 +1,4 @@
 function stringToArray(string) {
-  // write your code here
   //simpan ke array dan potong jika bertemu koma
   return string.split(',').map(item => item.split(''));
 }

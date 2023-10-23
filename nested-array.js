@@ -13,7 +13,6 @@ let roster = [
 
 
 function convert_roster_format (nestedArray) {
-  // your convert code here
   const [headers, ...data] = nestedArray;
   return data.map(playerData => {
     const playerObj = {};
