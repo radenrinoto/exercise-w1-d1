@@ -1,5 +1,10 @@
 function checkInRange(num, start, end) {
 // Enter your code below;
+if ( num >= start && num <= end) {
+  console.log(`${num} is between the range ${start} and ${end} `)
+} else {
+  console.log(`${num} is outside the range ${start} and ${end} `)
+}
 }
 
 checkInRange(15,11,30) //"15 is between the range 11 and 30"
@@ -8,6 +13,13 @@ checkInRange(20,34,51) //"20 is outside the range 34 and 51"
 
 function isEvenorOdd(num) {
   // Enter your code below;
+
+  if (num % 2 === 0) {
+      console.log(`${num} is a Even number`)
+  } else {
+      console.log(`${num} is a Odd number`)
+
+  }
 }
 
 isEvenorOdd(10) //"10 is a Even number"
@@ -15,6 +27,14 @@ isEvenorOdd(19) //"19 is a Odd number"
 
 function findLargest(num1, num2) {
 // Enter your code below;
+
+if (num1 >= num2) {
+  console.log(`${num1} the largest number`)
+} else if (num2 >= num1){
+  console.log(`${num2} the largest number`)
+} else if (num1 === num2) {
+  console.log(`${num1} is equal to ${num2}`)
+}
 
 }
 
@@ -24,6 +44,20 @@ findLargest(41,41) //"41 is equal to 41"
 
 function generateScore(score) {
 // Enter your code below;
+
+if (score <= 0 || score >=0) {
+  console.log(`This is not possible, an error has occurred.`)
+} else if (score <= 19 && score >=0){
+  console.log(`That was a terrible score — total fail!`)
+} else if (score <= 39 && score >=20) {
+  console.log(`You know some things, but it\'s a pretty bad score. Needs improvement.`)
+} else if (score <= 69 && score >=40) {
+  console.log(`You did a passable job, not bad!`)
+} else if (score <= 89 && score >= 70) {
+  console.log(`That''s a great score, you really know your stuff.`)
+}  else if (score <= 100 && score >= 90) {
+  console.log(`What an amazing score! Did you cheat? Are you for real?`)
+} 
 }
 
 generateScore(75);
