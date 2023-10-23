@@ -10,6 +10,7 @@ function checkVowel(string) {
     }
   }
   return true;
+
 }
 
 console.log(checkVowel("alksk d"));

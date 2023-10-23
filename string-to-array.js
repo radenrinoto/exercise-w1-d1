@@ -1,4 +1,5 @@
 function stringToArray(string) {
+
   // write your code here
   const stringPop = string.split(",");
   let result = [];
@@ -11,6 +12,7 @@ function stringToArray(string) {
   });
 
   return result;
+
 }
 
 console.log(stringToArray("aqrst,ukaei,ffooo"));
