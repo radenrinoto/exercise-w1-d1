@@ -14,7 +14,6 @@ let roster = [
 function convert_roster_format(nestedArray) {
   // Mendapatkan header kolom dari array pertama
   const headers = nestedArray[0]
-
   let convertedArray = []
 
   // Mengonversi setiap baris data ke objek
