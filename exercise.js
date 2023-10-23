@@ -1,6 +1,8 @@
 function checkInRange(num, start, end) {
   // Enter your code below;
-  return start < num < end;
+  start < num && num < end
+    ? console.log(`${num} is between the range ${start} and ${end}`)
+    : console.log(`${num} is outside the range ${start} and ${end}`);
 }
 
 checkInRange(15, 11, 30); //"15 is between the range 11 and 30"
