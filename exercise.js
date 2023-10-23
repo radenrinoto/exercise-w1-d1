@@ -2,10 +2,10 @@
 
 function checkInRange(num, start, end) {
   // Enter your code below;
-  if (num > start && num < end) {
-    console.log(`${num} is between the range ${start} and ${end}`);
+  if (num >= start && num <= end) {
+    console.log(`${num} is between the range ${start} and ${end} `)
   } else {
-    console.log(`${num} is outside the range ${start} and ${end}`);
+    console.log(`${num} is outside the range ${start} and ${end} `)
   }
 }
 
