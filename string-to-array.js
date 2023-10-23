@@ -1,5 +1,22 @@
 function stringToArray(string) {
-  // write your code here
+// write your code here
+  
+  const stringArray = string.split(',')
+
+  const resultArray = []
+
+  for (let i=0 ; i < stringArray.length ; i++) {
+
+    const str = stringArray[i]
+    const charArray = []
+
+    for (let j=0 ; j < str.length ; j++) {
+      charArray.push(str.charAt(j))
+    }
+    resultArray.push(charArray)
+  }
+
+  return resultArray
 }
 
 console.log(stringToArray('aqrst,ukaei,ffooo'))
