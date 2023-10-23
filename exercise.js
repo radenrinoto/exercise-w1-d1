@@ -2,7 +2,7 @@
 
 function checkInRange(num, start, end) {
   // Enter your code below;
-  num >= start && num <= end ? console.log(`is between the range ${start} and ${end}`) : console.log(`is outside the range ${start} and ${end}`);
+  num >= start && num <= end ? console.log(`${num} is between the range ${start} and ${end}`) : console.log(`${num} is outside the range ${start} and ${end}`);
 }
 
 checkInRange(15, 11, 30); //"15 is between the range 11 and 30"
@@ -10,7 +10,7 @@ checkInRange(20, 34, 51); //"20 is outside the range 34 and 51"
 
 function isEvenorOdd(num) {
   // Enter your code below;
-  num % 2 === 0 ? console.log("even") : console.log("odd");
+  num % 2 === 0 ? console.log(`${num} is a Even number`) : console.log(`${num} is a Odd number`);
 }
 
 isEvenorOdd(10); //"10 is a Even number"
