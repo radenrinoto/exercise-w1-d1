@@ -1,13 +1,15 @@
 function checkVowel(string) {
   // write your code here
 
+  const vowels = ['a','i','u','e','o']
+
   for ( i = 1 ; i < string.length; i++) {
-    if (string[i] == ['a'] || string[i] == ['i'] || string[i] == ['u'] || string[i] == ['e'] || string[i] == ['o']) {
-      console.log(true)
-    } else {
-      console.log(false)
+    if (string.includes(vowels[i])) {
+      return false 
     }
   }
+
+  return true
 }
 
 console.log(checkVowel('alksk d'));
