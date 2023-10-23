@@ -4,6 +4,7 @@ function checkInRange(num, start, end) {
   return num >= start && num <= end ? 
   console.log(`${num} is between the range ${start} and ${end}`) : 
   console.log(`${num} is outside the range ${start} and ${end}`)
+
 }
 
 checkInRange(15,11,30) //"15 is between the range 11 and 30"
@@ -33,6 +34,7 @@ findLargest(34,18) //"34 is the largest number"
 findLargest(41,41) //"41 is equal to 41"
 
 function generateScore(score) {
+
   if (score < 0 || score > 100) {
     return `This is not possible, an error has occurred.`
   } else if (score >= 0 && score <= 19) {
