@@ -1,5 +1,5 @@
 function checkVowel(string) {
-  const VOWELS = 'aeiou';
+  const VOWELS = 'aeiouAEIOU';
   const result = [];
 
   for (const char of string) {
@@ -17,3 +17,4 @@ console.log(checkVowel('alksk d'));
 console.log(checkVowel('rabsnckksola'));
 console.log(checkVowel('aiueoaiueoaiuoe'));
 console.log(checkVowel('aaaaaaaaaaadaaaa'));
+console.log(checkVowel('aASDSAuO'));
