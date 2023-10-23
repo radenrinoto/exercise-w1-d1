@@ -15,7 +15,7 @@ checkInRange(20, 34, 51) //"20 is outside the range 34 and 51"
 
 function isEvenorOdd(num) {
   // Enter your code below;
-  if (num % 2 == 0) {
+  if (num % 2 === 0) {
     console.log(`${num} is a Even number`);
   } else {
     console.log(`${num} is a Odd number`);
