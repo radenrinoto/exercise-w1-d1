@@ -36,16 +36,16 @@ findLargest(41, 41) //"41 is equal to 41"
 function generateScore(score) {
   // Enter your code below;
   if (score < 0 || score > 100) {
-    console.log('This is not possible, an error has occurred');
-  } else if (score >= 0 && score === 19) {
+    console.log("This is not possible, an error has occurred.");
+  } else if (score >= 0 && score <= 19) {
     console.log('That was a terrible score — total fail!');
-  } else if ( score >= 20 && score === 39 ) { 
+  } else if ( score >= 20 && score <= 39 ) { 
     console.log('You know some things, but its a pretty bad score. Needs improvement.');
-  } else if ( score >= 40 && score === 69) {
+  } else if ( score >= 40 && score <= 69) {
     console.log('You did a passable job, not bad!');
-  } else if (score >= 70 && score === 89) {
+  } else if (score >= 70 && score <= 89) {
     console.log('Thats a great score, you really know your stuff.');
-  } else if (score >= 100 && score === 100) {
+  } else if (score >= 100 && score <= 100) {
     console.log("What an amazing score! Did you cheat? Are you for real?");
   }
 }
